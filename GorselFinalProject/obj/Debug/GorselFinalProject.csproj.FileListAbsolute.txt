@@ -1,1 +1,10 @@
 C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\bin\Debug\GorselFinalProject.exe.config
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\bin\Debug\GorselFinalProject.exe
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\bin\Debug\GorselFinalProject.pdb
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\obj\Debug\GorselFinalProject.csprojResolveAssemblyReference.cache
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\obj\Debug\GorselFinalProject.Form1.resources
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\obj\Debug\GorselFinalProject.Properties.Resources.resources
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\obj\Debug\GorselFinalProject.csproj.GenerateResource.Cache
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\obj\Debug\GorselFinalProject.exe
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\obj\Debug\GorselFinalProject.pdb
+C:\Users\DOĞUKAN\Desktop\final-project-visual-programming\GorselFinalProject\obj\Debug\GorselFinalProject.Form2.resources
