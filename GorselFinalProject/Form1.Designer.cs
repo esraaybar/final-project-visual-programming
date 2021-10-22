@@ -29,73 +29,91 @@ namespace GorselFinalProject
         /// </summary>
         private void InitializeComponent()
         {
-            this.form2routebtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // form2routebtn
+            // button1
             // 
-            this.form2routebtn.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.form2routebtn.FlatAppearance.BorderColor = System.Drawing.Color.LightSeaGreen;
-            this.form2routebtn.FlatAppearance.BorderSize = 4;
-            this.form2routebtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Olive;
-            this.form2routebtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
-            this.form2routebtn.Font = new System.Drawing.Font("Arial Black", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.form2routebtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.form2routebtn.Location = new System.Drawing.Point(918, 133);
-            this.form2routebtn.Name = "form2routebtn";
-            this.form2routebtn.Size = new System.Drawing.Size(298, 65);
-            this.form2routebtn.TabIndex = 0;
-            this.form2routebtn.Text = "Kayıt Ekle";
-            this.form2routebtn.UseVisualStyleBackColor = false;
-            this.form2routebtn.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(34, 30);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(241, 47);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Kayıtları Listele";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(975, 30);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(241, 47);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Kayıt Ekle";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.richTextBox1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1242, 111);
+            this.panel1.TabIndex = 0;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(325, 37);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(596, 40);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = "Ara...";
             // 
             // listView1
             // 
-            this.listView1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.listView1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(41, 133);
+            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.Location = new System.Drawing.Point(0, 111);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(807, 457);
+            this.listView1.Size = new System.Drawing.Size(1242, 668);
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Black", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(335, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(627, 74);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "GYM KAYIT SİSTEMİ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1256, 636);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1242, 779);
             this.Controls.Add(this.listView1);
-            this.Controls.Add(this.form2routebtn);
+            this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button form2routebtn;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Label label1;
     }
 }
 
